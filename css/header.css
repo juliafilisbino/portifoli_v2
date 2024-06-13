@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.1vw;
+
+}
+#img_logo{
+    width: 5vw;
+    height: 5vw;
+    background-color: crimson;
+    border-radius: 58vw;
+    margin: 1.5vw 0.75vw;
+    box-shadow: 0.1vw 0.2vw 0.4vw rgba(35, 35, 35, 0.5);
+}
+
+#proficao{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+}
+
+.btn{
+    width: 12vw;
+    height: 3vw;
+    border-radius: 20vw;
+    margin: 0.5vw;
+    box-shadow: 0.1vw 0.2vw 0.4vw rgba(35, 35, 35, 0.5);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: crimson;
+    border: none;
+}
+
+.btn h4, .btn i{
+    font-size: 1.2vw;
+    margin: 0.8vw;
+    color: azure;
+}
+.btn h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,48 @@
+#img_principal {
+    width: 66vw;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    top: 7vw;
+    left: 5vw;
+}
+
+#nome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10vw;
+    position: absolute;
+    right: 18vw;
+    top: 14vw;
+
+    background-image: linear-gradient(to top, #ffca36, #d0a020);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+
+}
+
+#sobrenome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vw;
+    position: absolute;
+    right: 18vw;
+    top: 26.5vw;
+    
+    background-image: linear-gradient(to top, #ffca36, #d0a020);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+#sobre_mim {
+    width: 33vw;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    right: 18vw;
+    top: 38vw;
+    color: black;
+}
