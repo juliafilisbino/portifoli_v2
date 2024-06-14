@@ -1,7 +1,7 @@
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -10,7 +10,7 @@ header div{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0.1vw;
+    margin: 1vw 2vw;
 
 }
 #img_logo{
@@ -50,3 +50,38 @@ header div{
 .btn h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+@media (max-width: 420px) {
+    #btn_header{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .btn{
+        width: 8.3vw;
+        height: 8.3vw;
+        margin: 0.5vw;
+        justify-content: center;
+     } 
+     .btn i{
+        font-size: 5vw;
+     }
+
+     .btn h4{
+        display: none;
+     }
+
+     #img_logo{
+        width: 14.5vw;
+        height: 14.5vw;
+       
+    }
+     
+     #proficao{
+        font-size: 4vw;
+     }
+
+     header{
+        align-items: flex-start;
+     }
+    }

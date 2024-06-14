@@ -43,6 +43,29 @@
     font-size: 1.5vw;
     position: absolute;
     right: 18vw;
-    top: 38vw;
+    top: 32vw;
     color: black;
+}
+
+@media ( max-width: 425px){
+   #img_principal{
+    width: 107vw;
+    left: -3.5vw;
+    top: 68vw;
+   }
+#nome{
+    font-size: 18vw;
+    top: 60vw;
+   }
+#sobrenome{
+    font-size: 14vw;
+    top: 80vw;
+}
+
+#sobre_mim{
+    width: 90vw;
+    font-size: 5vw;
+    right: 7vw;
+    top: 130vw;
+}
 }
