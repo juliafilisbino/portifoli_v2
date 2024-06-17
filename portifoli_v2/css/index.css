@@ -1,0 +1,11 @@
+@import url(/css/header.css);
+@import url(/css/section.css);
+@import url(footer.css);
+@import url(test.css);
+
+body{
+    background-color: rgb(255, 254, 249);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0;
+}
