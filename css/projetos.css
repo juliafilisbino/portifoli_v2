@@ -1,0 +1,9 @@
+@import url(/css/header.css);
+@import url(/css/fonts.css);
+@import url(/css/banner.css);
+
+body{
+    background-color: rgb(255, 254, 249);
+    overflow-x: hidden;
+    margin: 0;
+}
