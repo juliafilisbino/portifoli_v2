@@ -1,9 +1,18 @@
 @import url(/css/header.css);
 @import url(/css/fonts.css);
 @import url(/css/banner.css);
+@import url(/css/lista_cards.css);
 
 body{
     background-color: rgb(255, 254, 249);
-    overflow-x: hidden;
     margin: 0;
+    width: 100vw;
+    height: 10vh;
+    overflow-x: hidden;
+}
+
+@media (max-width: 425px){
+    body{
+        overflow: auto;
+    }
 }
