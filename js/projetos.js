@@ -1,7 +1,7 @@
 let divs = [];
 let titulos = ['1', '2', '3', '4', '5', '6'];
 let textos = ['texto', 'texto', 'texto', 'texto', 'texto', 'texto'];
-let imgs = ['download.jpg', 'image.jpg', 'imagem.jpg', 'imagen.jpg', 'img.png', 'logo.png'];
+let imgs = ['download.jpg', 'image.jpg', 'imagem.jpg', 'imagen.jpg', 'noite.avif', 'images.jpg'];
 
 var cards_projetos = document.getElementById('cards_projetos');
 
@@ -18,8 +18,21 @@ for(var i = 0; i <titulos.length ; i++){
     var h3 = document.createElement('h3');
     var p = document.createElement('p');
 
-    img.src = '../assets/img/'+ imgs[i];
-    img.style.width = '5vw';
+    img.src = '../assets/img/'+ imgs[i] ;
+    img.style.width = '15vw';
+
+//     // Selecionar todas as imagens na página
+// const imagens = document.getElementsByTagName('img');
+
+// // Definir o tamanho desejado para todas as imagens
+// const larguraDesejada = 300; // Largura desejada em pixels
+
+// for (let i = 0; i < imagens.length; i++) {
+//     imagens[i].style.width = larguraDesejada + 'px';
+//     imagens[i].style.height = 'auto'; // Manter a proporção original
+// }
+
+    
 
     h3.textContent = titulos[i];
 

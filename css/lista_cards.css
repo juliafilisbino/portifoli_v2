@@ -2,16 +2,15 @@
     width: 100vw;
     display: grid;
     justify-content: space-around;
-    grid-template-columns: 19vw 19vw 19vw 19vw 19vw;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
     grid-template-rows: 11vw 11vw;
 }
 .card{
-    width: 19vw;
+    width: 19vw; 
     height: 10vw;
     background-color: crimson;
 }
 
-#download_jpg{
-    width: 100vw;
-    height: 2vw;
-}
+
+
+    
