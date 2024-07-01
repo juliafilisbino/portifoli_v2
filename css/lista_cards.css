@@ -3,14 +3,16 @@
     display: grid;
     justify-content: space-around;
     grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
-    grid-template-rows: 11vw 11vw;
+    grid-template-rows: 15vw 15vw;
 }
 .card{
-    width: 19vw; 
+    width: 10vw; 
     height: 10vw;
     background-color: crimson;
 }
-
-
+.card img{
+    width: 10vw;
+    height: 10vw;
+}
 
     

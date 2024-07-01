@@ -1,3 +1,6 @@
+#banner_btns{
+    height: 23vw; 
+}
 #banner{
     position: absolute;
     left: 0vw;
@@ -39,7 +42,7 @@
 
 #btns_banner{
     position: absolute;
-    top: 20vw;
+    top: 32vw;
     width: 100vw;
     height: 2vw;
     display: flex;
@@ -56,4 +59,7 @@
     background-color: rgb(255, 255, 255);
 
     transition: all 0.2s ease-in-out;
+}
+
+#habilidades{
 }

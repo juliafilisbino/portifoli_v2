@@ -31,14 +31,32 @@ header div{
 #proficao{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2vw;
-}
+    animation: pulse 2s infinite;
 
+}
+@keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .botao:hover {
+          animation: none;
+      }
+      
 .btn{
     width: 12vw;
     height: 3vw;
     border-radius: 20vw;
     margin: 0.5vw;
     box-shadow: 0.1vw 0.2vw 0.4vw rgba(35, 35, 35, 0.5);
+    display: inline-block;
+    cursor: pointer;
 
     display: flex;
     justify-content: space-between;
@@ -46,6 +64,11 @@ header div{
 
     background-color: crimson;
     border: none;
+    transition: transform 1.0s ease;
+}
+
+.btn:hover{
+    transform: rotate(360deg);
 }
 
 .btn h4, .btn i{
