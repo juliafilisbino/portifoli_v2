@@ -1,9 +1,9 @@
 #img_principal {
     width: 66vw;
     height: auto;
-    position: absolute;
+    position: absolute;      
     z-index: -1;
-    top: 7vw;
+    top: 7vw; 
     left: 5vw;
 }
 

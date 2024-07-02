@@ -21,23 +21,23 @@
 }
 
 #banner1{
-    background-color:crimson;
+    background-image: url(/assets/cidade.avif);
 }
 
 #banner2{
-    background-color: #d0a020;
+    background-image: url(/assets/jogos.avif);
 }
 
 #banner3{
-    background-color: #ffca36;
+    background-image: url(/assets/cars.avif);
 }
 
 #banner4{
-    background-color: #d0a020;
+    background-image: url(/assets/jogos.personage.jpg);
 }
 
 #banner5{
-    background-color: #ffca36;
+    background-image: url(/assets/tokyo\ future.avif);
 }
 
 #btns_banner{

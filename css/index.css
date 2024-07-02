@@ -4,7 +4,6 @@
 @import url(test.css);
 
 body{
-    background-color: rgb(255, 254, 249);
     overflow-y: hidden;
     overflow-x: hidden;
     margin: 0;

@@ -4,7 +4,11 @@
 @import url(/css/lista_cards.css);
 
 body{
-    background-color: rgb(255, 254, 249);
+    background-image:url("../assets/img/bad.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
     margin: 0;
     width: 100vw;
     height: 10vh;
