@@ -13,9 +13,25 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+
 .card img{
     width: 10vw;
     height: 10vw;
+}
+
+.card:hover div{
+    height: 16vw;
+}
+
+.cardAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:dashed 2px #353333;
+}
+.iconeMais{
+    font-size: 4vw;
+    color: #353333;
 }
 
     

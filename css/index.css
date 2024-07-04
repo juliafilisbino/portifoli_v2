@@ -1,4 +1,5 @@
 @import url(header.css);
+@import url(infos_home.css);
 @import url(section.css);
 @import url(footer.css);
 @import url(test.css);
@@ -7,4 +8,10 @@ body{
     overflow-y: hidden;
     overflow-x: hidden;
     margin: 0;
+}
+
+@media (max-width: 425px) {
+    body{
+        overflow: auto;
+    }
 }

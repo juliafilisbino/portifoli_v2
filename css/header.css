@@ -31,23 +31,9 @@ header div{
 #proficao{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2vw;
-    animation: pulse 2s infinite;
 
 }
-@keyframes pulse {
-        0% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.1);
-        }
-        100% {
-          transform: scale(1);
-        }
-      }
-      .botao:hover {
-          animation: none;
-      }
+
       
 .btn{
     width: 12vw;
@@ -71,7 +57,8 @@ header div{
     transform: rotate(360deg);
 }
 
-.btn h4, .btn i{
+.btn h4,
+ .btn i{
     font-size: 1.2vw;
     margin: 0.8vw;
     color: azure;

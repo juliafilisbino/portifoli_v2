@@ -1,0 +1,73 @@
+/* Configuração da seção */
+section{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #353535;
+}
+/* Configuração da imagem principal */
+#img_principal {
+    position: absolute;
+    width: 66vw;
+    z-index: -1;
+    left: 5vw;
+    top: 7vw;
+}
+/* Configuração dos textos */
+#nome {
+    margin: 0;
+    position: absolute;
+    font-size: 10vw;
+    right: 18vw;
+    top: 14vw;
+}
+#sobrenome {
+    margin: 0;
+    position: absolute;
+    font-size: 6vw;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    right: 18vw;
+    top: 26.5vw; 
+}
+#sobre_mim {
+    margin: 0;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+
+    width: 33vw;
+    position: absolute;
+    right: 18vw;
+    top: 38.8vw;
+}
+
+@media (max-width: 420px)  {
+    section{
+        height: 65%;
+    }
+
+    @media ( max-width: 425px){
+        #img_principal{
+         width: 107vw;
+         left: -3.5vw;
+         top: 68vw;
+        }
+     #nome{
+         font-size: 18vw;
+         top: 60vw;
+        }
+     #sobrenome{
+         font-size: 14vw;
+         top: 80vw;
+     }
+     
+     #sobre_mim{
+         width: 90vw;
+         font-size: 5vw;
+         right: 7vw;
+         top: 130vw;
+     }
+     }
