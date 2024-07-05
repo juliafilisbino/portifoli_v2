@@ -18,26 +18,30 @@
     height: 22vw;
     margin: 0 5vw;
 
+    background-size: 58vw;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 #banner1{
-    background-image: url(/assets/cidade.avif);
+    background-image: url(/assets/cidade..jpg);
 }
 
 #banner2{
-    background-image: url(/assets/jogos.avif);
+    background-image: url(/assets/jogos..jpg);
 }
 
 #banner3{
-    background-image: url(/assets/cars.avif);
+    background-image: url(/assets/cars..jpg);
 }
 
 #banner4{
-    background-image: url(/assets/jogos.personage.jpg);
+    background-image: url(/assets/jogos.personage..jpg);
 }
 
 #banner5{
-    background-image: url(/assets/tokyo\ future.avif);
+    background-image: url(/assets/tokyo\ future..jpg);
 }
 
 #btns_banner{

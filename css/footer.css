@@ -1,5 +1,6 @@
 footer{
     width: 100%;
+    position: relative;
     height: 15%;
     display: flex;
     justify-content: right;
@@ -13,7 +14,7 @@ footer{
 }
 footer i{
     font-size: 3vw;
-    color: #353535;    
+    color: crimson;    
 
     transition: all 0.5s ease-out;
 }

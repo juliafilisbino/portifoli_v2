@@ -1,5 +1,9 @@
 import { Projeto } from "./projeto.js";
 
+class projetos{
+    constructor()
+}
+
 let divs = [];
 let projetos =[
     new Projeto('submundo', 'um barco ati encontrar..', '../../assets/img/download.jpg'),
