@@ -1,9 +1,5 @@
 import { Projeto } from "./projeto.js";
 
-class projetos{
-    constructor()
-}
-
 let divs = [];
 let projetos =[
     new Projeto('submundo', 'um barco ati encontrar..', '../../assets/img/download.jpg'),
@@ -57,7 +53,8 @@ export function criarCards() {
 
     let divAdd = document.createElement('div');
     divAdd.className = 'card cardAdd';
-    divAdd.addEventListener('click', function(){
+    divAdd.addEventListener('click', ()=> {
+        addCard();
         addCard();
     });
 

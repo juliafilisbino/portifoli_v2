@@ -4,6 +4,7 @@
 @import url(/css/lista_cards.css);
 @import url(habilits.css);
 @import url(./footer.css);
+@import url(./inputs.css);
 
 body{
     background-image:url(../assets/img/bad.jpg);  
