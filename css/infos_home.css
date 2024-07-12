@@ -44,7 +44,7 @@ section{
     top: 38.8vw;
 }
 
-@media (max-width: 420px)  {
+@media (max-width: 420px) {
     section{
         height: 65%;
     }
@@ -71,3 +71,4 @@ section{
          top: 130vw;
      }
      }
+    }

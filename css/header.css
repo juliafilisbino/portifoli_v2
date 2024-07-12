@@ -34,8 +34,7 @@ header div{
 
 }
 
-      
-.btn{
+/* .btn{
     width: 12vw;
     height: 3vw;
     border-radius: 20vw;
@@ -55,7 +54,7 @@ header div{
 
 .btn:hover{
     transform: rotate(360deg);
-}
+}  */
 
 .btn h4,
  .btn i{
