@@ -72,6 +72,10 @@ function salvarCard(){
     addCard();
 }
 
+
+
+
+
 let bannerAtual = 1;
 const totalBanners = 5;
 

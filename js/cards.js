@@ -2,7 +2,7 @@ import { Projeto } from "./projeto.js";
 
 let divs = [];
 let projetos =[
-    new Projeto('submundo', 'um barco ati encontrar..', '../../assets/img/download.jpg'),
+    new Projeto('banana', 'um barco ati encontrar..', '../../assets/img/download.jpg'),
     new Projeto('pacifico', 'solitário..', '../../assets/img/image.jpg'),
     new Projeto('passarela', 'o caminho para o pós vida..', '../../assets/img/imagem.jpg'),
     new Projeto('céu', 'onde poderíamos chegar..', '../../assets/img/imagen.jpg'),
