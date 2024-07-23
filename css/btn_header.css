@@ -3,9 +3,9 @@
   --btn-padding: 4px 8px;
   --btn-hover-bg:#ffca36;
 
-  --width: 8.3vw;
-  --height: 8.3vw;
-  --margin: 0.5vw;
+  width: 10vw;
+  height: 2.5vw;
+  margin: 0.5vw;
 
   --justify-content: center;
   --btn-transition: 0.3s;
@@ -49,11 +49,8 @@
   overflow: hidden;
   box-shadow: var(--btn-shadow);
   border-radius: 6em;
-  border: 2px solid #2a2b3a;
+  border: 0;
 }
-
-
-      
 
 .btn span {
   letter-spacing: var(--btn-letter-spacing);
@@ -76,7 +73,7 @@
 .btn:focus {
   background: var(--btn-default-bg);
   box-shadow: 0px 0px 10px 0px #d0a020(119, 68, 255, 0.7);
-  border: 2px solid #ffca36(9, 255, 0);
+  /* border: 2px solid #ffca36(9, 255, 0); */
 }
 
 .btn:hover span,

@@ -11,7 +11,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10vw;
     position: absolute;
-    right: 18vw;
+    right: 16vw;
     top: 14vw;
 
     background-image: linear-gradient(to top, #ffca36, #d0a020);
@@ -26,8 +26,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 6vw;
     position: absolute;
-    right: 18vw;
-    top: 26.5vw;
+    right: 16vw;
+    top: 24vw;
     
     background-image: linear-gradient(to top, #ffca36, #d0a020);
     background-clip: text;
@@ -42,8 +42,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5vw;
     position: absolute;
-    right: 18vw;
-    top: 38.8vw;
+    right: 16vw;
+    top: 32vw;
     color: black;
 }
 

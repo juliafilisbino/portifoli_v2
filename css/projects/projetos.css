@@ -1,14 +1,13 @@
-@import url(/css/header.css);
-@import url(/css/fonts.css);
-@import url(/css/banner.css);
-@import url(/css/lista_cards.css);
-@import url(habilits.css);
-@import url(./footer.css);
+@import url(../header.css);
+@import url(../btn_header.css);
+@import url(./banner.css);
+@import url(./lista_cards.css);
+@import url(./habilits.css);
+@import url(../footer.css);
 @import url(./inputs.css);
-@import url(btn.css);
 
 body{
-    background-image:url(../assets/img/bad.jpg);  
+    background-image:url(../../assets/img/bad.jpg);  
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -24,3 +23,5 @@ body{
         overflow: auto;
     }
 }
+
+

@@ -11,7 +11,7 @@ section{
 /* Configuração da imagem principal */
 #img_principal {
     position: absolute;
-    width: 66vw;
+    width: 62vw;
     z-index: -1;
     left: 5vw;
     top: 7vw;

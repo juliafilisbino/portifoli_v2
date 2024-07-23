@@ -2,12 +2,13 @@
     width: 100vw;
     display: grid;
     justify-content: space-around;
-    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
-    grid-template-rows: 15vw 15vw;
+    grid-template-columns: 22vw 22vw 22vw 22vw 22vw;
+    grid-template-rows: 19vw 19vw;
+    
 }
 .card{
-    width: 10vw; 
-    height: 10vw;
+    width: 12vw; 
+    height: 12vw;
     background-color: crimson;
     font-size: 0.80vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

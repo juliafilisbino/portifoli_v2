@@ -10,13 +10,13 @@ header div{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1vw 2vw;
+    margin: 0 2vw;
 
 }
+
 #img_logo{
     width: 5vw;
     height: 5vw;
-    background-color: crimson;
     border-radius: 58vw;
     margin: 1.5vw 0.75vw;
     box-shadow: 0.1vw 0.2vw 0.4vw rgba(35, 35, 35, 0.5);

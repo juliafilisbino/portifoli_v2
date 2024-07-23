@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/projetos.css">.
-    <script src="../js/projetos.js" defer></script>
+    <title>Projeto</title>
+    <link rel="stylesheet" href="../css/projects/projetos.css">.
+    <script  type="module" src="../js/projetos.js" defer></script>
+    <script src="https://kit.fontawesome.com/f38b15d3b5.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <header>
         <div>
-            <img src="/assets/img/logo.png" id="img_logo">
+            <img src="/assets/img/logo.png" id="img_logo"> 
             <h1 id="proficao"> Aluno ADM </h1>
         </div>
-        <div id="btn_header">
-            <button id="btn_home" class="btn" onclick="window.location.href ='/index.html'">
-                <h4 id="home_text"> home </h4>
-                <i class="fa-solid fa-house"></i>
+        <div id="btn_header" >
+            <button id="btn_home"  class="btn" onclick="window.location.href ='./index.html'">
+                <span> Home </span>
+                <i class="fa-solid fa-house"></i>      
             </button>
-            <button id="btn_formacao" class="btn" onclick="window.location.href='/pages/formacao.html'">
-                <h4 id="formacao_text"> formação </h4>
-                <i<i id="formacao_icon" class="fa-solid fa-graduation-cap"></i>
+            <!-- <button id="btn_formacao" class="btn" onclick="window.location.href='/pages/formacao.html'">
+                <span> Foramação </span>
+                <i class="fa-solid fa-graduation-cap"></i>
+            </button> -->
+            <button id="btn_projetos" class="btn" onclick="window.location.href='./projetos.html'">
+                <span> Projetos </span>
+                <i class="fa-solid fa-book"></i>
             </button>
-            <button id="btn_projetos" class="btn" onclick="window.location.href='/pages/projetos.html'">
-                <h4 id="projetos_text"> projetos </h4>
-                <i id="projetos_icon" class="fa-solid fa-book"></i>
-            </button>
-
         </div>
     </header>
     <section id="banner_btns">
@@ -49,43 +47,40 @@
     </section>
     <section id="habilidades">
         <h1>HABILIDADES</h1>
-        <div class="backgroud" id="frameworks">
-            <nav>
-                <h4>REACT</h4>
-                <h4>NEXT</h4>
-                <h4>NEST</h4>
-                <h4>FLUTTER</h4>
-            </nav>
-        </div>
-        <div class="backgroud" id="areas">
-            <nav>
-                <h4>GAMES</h4>
-                <h4>WEB</h4>
-                <h4>APPS</h4>
-                <h4>FRONT-END</h4>
-                <h4>BACK-END</h4>
-            </nav>
-        </div>
-        <div class="backgroud" id="linguagens">
-            <nav>
-                <h4>HTML/CSS</h4>
-                <h4>JAVA SCRIPT</h4>
-                <h4>DART</h4>
-                <h4>JAVA</h4>
-                <h4>C</h4>
-            </nav>
-        </div>
+        <section id="btns_habilidades">
+            <div id="frameworks">
+                <nav id="frameworks_nav">
+                </nav>
+            </div>
+            <div id="areas">
+                <nav id="areas_nav">
+                </nav>
+            </div>
+            <div id="linguagens">
+                <nav id="linguagens_nav">
+
+                </nav>
+            </div>
+        </section>
     </section>
     <section id="cards_projetos">
     </section>
     <footer>
+        <button class="btn_footer" onclick="window.location.href='https://github.com/juliafilisbino'"><i 
+            class="fa-brands fa-github"></i>
+        <button class="btn_footer" onclick="window.location.href='https://linkedin.com'"><i 
+            class="fa-brands fa-linkedin"></i>
+        <button  class="btn_footer" onclick="window.location.href='https://instagram.com'"><i 
+            class="fa-brands fa-instagram"></i>
+        <button class="btn_footer" onclick="window.location.href='https://discord.com'"><i 
+            class="fa-brands fa-discord"></i>
     </footer>
     <section id="criar_card">
         <div>
             <input type="text" id="input_titulo">
             <input type="text" id="input_descricao">
             <input type="text" id="input_img">
-            <button id="btn_criar_card" onclick="salvarCard()"></button>
+            <button id="btn_criar_card" onclick="addCard()"></button>
         </div>
 
     </section>

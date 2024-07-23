@@ -1,9 +1,9 @@
-@import url(header.css);
+@import url(../header.css);
+@import url(../btn_header.css);
 @import url(infos_home.css);
 @import url(section.css);
-@import url(./footer.css);
-@import url(test.css);
-@import url(btn.css);
+@import url(../footer.css);
+
 
 body{
     overflow-y: hidden;

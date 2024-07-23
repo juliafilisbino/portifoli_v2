@@ -2,36 +2,7 @@ const totalBanners = 5;
 let bannerAtual = 1;
 let intervaloTrocaBanner;
 
-const titlesBanner = ["Gamers", "Programação", "Cars", "Comunicação", "Cultura"];
-const textsBanner = ["", "", "", "", ""];
-const colorsBanner = ["download.jpg", "image.jpg", "imagem.jpg","imagen.jpg", "noite.avif", "images.jpg"];
-
 let banner = document.getElementById("banner");
-let btns = document.getElementById("btns");
-
-export function criarBanners(){
-    for(let i = 0; i < titlesBanner.length ; i++){
-        var div = document.createElement('div');
-        var h2 = document.createElement('h3');
-        var h6 = document.createElement('h6');
-
-        h2.textContent = titlesBanner[i];
-        h6.textContent = textsBanner[i];
-
-        div.style.background = "linear-gradient(149deg, " + colorsBanner[i] + " 65%, rgba(245,244,244,1) 100%)";
-
-        div.append(h2);
-        div.appendChild(h6);
-        banner.appendChild(div);
-
-        var btn = document.createElement('div');
-        btn.id = 'btn'+(i+1);
-        btn.addEventListener('click', function() {
-            trocaBanner(i+1);
-        });
-        btns.appendChild(btn);
-    }
-}
 
 export function trocaBanner(numero) {    
     banner.style.left = "-" + (numero - 1) + "00vw";
