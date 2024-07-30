@@ -16,53 +16,59 @@ export class CriadorCards {
         const data = await response.json();
         const projetos = data.projetos;
 
-        this.cards_projetos.innerHTML = '';
+        //this.cards_projetos.innerHTML = '';
         this.divs = [];
-    
+
         for (let i = 0; i < projetos.length; i++) {
-            var div = document.createElement('div');
-    
-            div.className = 'card';
+            let div = document.createElement('div');
+
+            div.className = 'card-container';
             this.divs.push(div);
             this.cards_projetos.appendChild(div);
         }
-    
+
         for (let i = 0; i < projetos.length; i++) {
-            var div = document.createElement('div');
-            var img = document.createElement('img');
-            var h3 = document.createElement('h3');
-            var p = document.createElement('p');
-            var btn = document.createElement('button');
-    
-            btn.style.width = '5vw';
-            btn.style.height = '2vw';
-            btn.textContent = 'Remover';
-            btn.addEventListener('click', () => {
-                this.removerCard(projetos[i].id);
-            });
-    
-            img.src = '../assets/img/'+projetos[i].img;
-    
-            h3.textContent = projetos[i].titulo;
-    
-            p.textContent = projetos[i].descricao;
-    
-            div.appendChild(img);
-            div.appendChild(h3);
-            div.appendChild(p);
-            div.appendChild(btn);
-            this.divs[i].appendChild(div);
+            let cardContent = document.createElement('div');
+            cardContent.className = 'card-content';
+
+            let cardTitle = document.createElement('div');
+            cardTitle.className = 'card-title';
+
+            let titleSpan = document.createElement('span');
+            titleSpan.className = 'title';
+            titleSpan.textContent = projetos[i].titulo;
+            cardTitle.appendChild(titleSpan);
+
+            let cardBody = document.createElement('div');
+            cardBody.className = 'card-body';
+
+            let img = document.createElement('img');
+            img.src = `../assets/img/${projetos[i].img}`;
+            cardBody.appendChild(img);
+
+            let cardDescricao = document.createElement('div');
+
+            let descricaoSpan = document.createElement('span');
+            descricaoSpan.className = 'title';
+            descricaoSpan.textContent = projetos[i].descricao;
+            cardDescricao.appendChild(descricaoSpan);
+
+            // Monta a estrutura final
+            cardContent.appendChild(cardTitle);
+            cardContent.appendChild(cardBody);
+            cardContent.appendChild(cardDescricao);
+            this.divs[i].appendChild(cardContent);
         }
-    
+
         let divAdd = document.createElement('div');
-        divAdd.className = 'card cardAdd';
+        divAdd.className = 'card-container cardAdd';
         divAdd.addEventListener('click', () => {
             this.criar_card.style.display = 'flex';
         });
-    
+
         let icon = document.createElement('i');
         icon.className = "fa-solid fa-plus iconeMais";
-    
+
         divAdd.appendChild(icon);
         this.cards_projetos.appendChild(divAdd);
     }

@@ -1,8 +1,20 @@
 #cards_projetos{
+    font-style: italic;
+    font-weight: bold;
+    flex-wrap: wrap;
+    gap: 1em;
     width: 100vw;
     display: grid;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1em;
     grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
-}
+}  
+
 .card{
     box-sizing: border-box;
     width: 15vw; 
