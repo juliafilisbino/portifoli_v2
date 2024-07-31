@@ -66,4 +66,25 @@
     color: #353333;
 }
 
+.btn_del{
+    width: 4vw;
+    height: 1.1vw;
+    position: absolute; /* Posiciona o botão com relação ao card */
+    bottom: 1em; /* Distância da parte inferior do card */
+    left: 1em; /* Distância da parte esquerda do card */
+    padding: 0.5em 1em;
+    background-color: #ffca36;
+    color: #000;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+/* .DELETAR{
+    width: 1vw;
+    height: vw;
+} */
+
     

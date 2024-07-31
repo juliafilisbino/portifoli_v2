@@ -16,7 +16,7 @@ export class CriadorCards {
         const data = await response.json();
         const projetos = data.projetos;
 
-        //this.cards_projetos.innerHTML = '';
+        this.cards_projetos.innerHTML = '';
         this.divs = [];
 
         for (let i = 0; i < projetos.length; i++) {
@@ -53,7 +53,17 @@ export class CriadorCards {
             descricaoSpan.textContent = projetos[i].descricao;
             cardDescricao.appendChild(descricaoSpan);
 
+            let btn = document.createElement('button');
+            btn.className = 'btn_del';
+            btn.textContent = 'DELETAR';
+            btn.style.zIndex = '5'
+            btn.addEventListener('click', () => {
+                this.removerCard(projetos[i].id);
+            });
+
+
             // Monta a estrutura final
+            cardContent.appendChild(btn);
             cardContent.appendChild(cardTitle);
             cardContent.appendChild(cardBody);
             cardContent.appendChild(cardDescricao);
