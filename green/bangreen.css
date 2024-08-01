@@ -1,0 +1,66 @@
+#banner_btns{
+    height: 23vw; 
+}
+#banner{
+    position: absolute;
+    left: 0vw;
+    width: 500vw;
+    height: 22vw;
+    margin: 1.5vw 0;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.2s ease-in-out;
+}
+
+#banner div{
+    width: 90vw;
+    height: 22vw;
+    margin: 0 5vw;
+
+    background-size: 58vw;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#banner1{
+    background-image: url(../../assets/img/preservação.jpeg);
+}
+
+#banner2{
+    background-image: url(../../assets/img/fusão.jpeg);
+}
+
+#banner3{
+    background-image: url(../../assets/img/energia.jpeg);
+}
+
+#banner4{
+    background-image: url(../../assets/img/agricultura.jpeg);
+}
+
+#banner5{
+    background-image: url(../../assets/img/fogo.jpeg);
+}
+
+#btns_banner{
+    position: absolute;
+    top: 30vw;
+    width: 100vw;
+    height: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#btns_banner div{
+    width: 1.2vw;
+    height: 1.2vw;
+    border-radius: 100vw;
+    margin: 0 0.5vw;
+    background-color: rgb(16, 90, 228);
+    box-shadow: 0px 0px 10px 0px #d0a020;
+
+    transition: all 0.2s ease-in-out;
+}

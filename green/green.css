@@ -1,0 +1,26 @@
+@import url(../css/header.css);
+@import url(./btn_flower.css);
+@import url(./bangreen.css);
+@import url(../css/projects/lista_cards.css);
+@import url(./habilgreen.css);
+@import url(./foogreen.css);
+@import url(../css/projects/inputs.css);
+@import url(./cardgreen.css);
+
+body{
+    background-image:url(../../assets/img/ocean.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin: 0;
+    width: 100vw;
+    height: 10vh;
+    overflow-x: hidden;
+}
+
+@media (max-width: 425px){
+    body{
+        overflow: auto;
+    }
+}
