@@ -3,7 +3,7 @@ let totalHabilits = 4;
 let intervaloTroca;
 
 let frameworksHabilits= ["-ÁGUA","-LUZ","-ÁGUA","-LUZ"];
-let areasHabilits= ["-DESMATAMENTO", "OCEANO", "AR","-DESMATAMENTO"];
+let areasHabilits= ["-DESMATAMENTO", "OCEANO LIMPO", "AR SEM POLUIÇÃO","-DESMATAMENTO"];
 let linguagensHabilits= ["ENERGIA RENOVÁVEL","-DESPERDÍCIO","RECICLAGEM","ENERGIA RENOVÁVEL"];
 
 let frameworks = document.getElementById("frameworks_nav");
