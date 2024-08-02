@@ -56,6 +56,7 @@ export class CriadorCards {
             let btn = document.createElement('button');
             btn.className = 'btn_del';
             btn.textContent = 'DELETAR';
+            btn.style.fontSize = '0.5vw';
             btn.style.zIndex = '5'
             btn.addEventListener('click', () => {
                 this.removerCard(projetos[i].id);
