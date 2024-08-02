@@ -11,12 +11,13 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 3em;
-    transition: transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   
   .card-container {
     filter: drop-shadow(46px 36px 24px #5d93da) drop-shadow(-55px -40px 25px #ffca36) ;
     animation: blinkShadowsFilter 8s ease-in infinite;
+    transition: all 0.3s ease-in-out;
   }
 
   .card-container:hover{
