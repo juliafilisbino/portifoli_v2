@@ -12,7 +12,7 @@ export class CriadorCards {
     }
 
     async criarCards() {
-        const response = await fetch('http://backend-portif-lio.vercel.app/pegaCardsVerde');
+        const response = await fetch('https://backend-portif-lio.vercel.app/pegaCardsVerde');
         const data = await response.json();
         const projetos = data.projetos;
 
@@ -90,7 +90,7 @@ export class CriadorCards {
         const descricao = this.input_descricao.value;
         const img = this.input_img.value;
 
-        const response = await fetch('http://backend-portif-lio.vercel.app/addCardVerde', {
+        const response = await fetch('https://backend-portif-lio.vercel.app/addCardVerde', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -109,7 +109,7 @@ export class CriadorCards {
     }
 
     async removerCard(cardId) {
-        const response = await fetch('http://backend-portif-lio.vercel.app/deleteCardVerde', {
+        const response = await fetch('https://backend-portif-lio.vercel.app/deleteCardVerde', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
