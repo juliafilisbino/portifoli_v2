@@ -1,0 +1,38 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: right;
+}
+.btn_footer{
+    margin: 0 0.3vw;
+    border: 0;
+    background-color: transparent;    
+}
+footer i{
+    font-size: 3vw;
+    color: crimson;    
+
+    transition: all 0.5s ease-out;
+}
+.btn_footer i:hover{
+    font-size: 4vw;
+}
+
+@media (max-width: 425px){
+    footer{
+        height: 7%;
+        justify-content: center;
+        padding: 0;
+    }
+    .btn_footer{
+        margin: 0 3%;
+    }
+    footer i{
+        font-size: 10vw;
+    }
+    .btn_footer i:hover{
+        font-size: 12vw;
+    }
+}
